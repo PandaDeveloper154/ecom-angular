@@ -13,6 +13,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SearchComponent } from './search/search.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     SellerAuthComponent,
     SellerHomeComponent,
     SellerAddProductComponent,
-    SellerUpdateComponent
+    SellerUpdateComponent,
+    SearchComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
